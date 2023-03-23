@@ -2,7 +2,7 @@
 
 Resume Parser is a program designed to automate the task of extracting key information from resumes. With this program, you can easily and quickly extract information such as candidate name, email, phone number, education, work experience, and skills from a resume.
 
-The project has been developed by the ADG team, which consists of @harshitsarda, @Izhan-07, and @kushal-022.
+The project has been developed by the ADG team, which consists of @kushal-02 , @harshitsarda and @Izhan-07 .
 
 ## What is a Resume Parser?
 
@@ -51,6 +51,3 @@ spacy
 Usage
 
 Please make sure to update tests as appropriate.
-
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
