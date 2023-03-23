@@ -1,80 +1,56 @@
-# Resume-Parser-using-Spacy
-resume parser using space V3
+# Resume_parser
 
-# Resume_parser_ADG
+Resume Parser is a program designed to automate the task of extracting key information from resumes. With this program, you can easily and quickly extract information such as candidate name, email, phone number, education, work experience, and skills from a resume.
 
-What is Resume Parsing?
+The project has been developed by the ADG team, which consists of @harshitsarda, @Izhan-07, and @kushal-022.
 
-A Résumé parsing technology converts an unstructured form of resume data into a structured format. A Resume parser analyses resume data and extract it into machine-readable output such as XML, JSON. A CV/resume parser helps automatically store, organize, and analyze resume data to find the best candidate.
+## What is a Resume Parser?
 
-A Resume Parser helps organizations eliminate the error-prone and time-consuming process and improves recruiters' efficiency.
+A resume parser is a deep learning/AI framework that identifies complete information from resumes, analyzes, store, organize, and enriches it through its taxonomies. Resume parsing software makes the hiring process quick and more productive.
 
-What is a Resume Parser?
+Fast and accurate resume parsing technology improves efficiency and offers an enhanced candidate experience.
 
--> A resume parser is a deep learning/AI framework that identifies complete information from resumes, analyzes, store, organize, and enriches it through its taxonomies. Resume parsing software makes the hiring process quick and more productive.
+It is a component that automatically segregates the information into various fields and parameters like contact information, educational qualification, work experience, skills, achievements, professional certifications to quickly help you identify the most relevant resumes based on your criteria.
 
--> Fast and accurate resume parsing technology improves efficiency and offers an enhanced candidate experience.
+A parser takes input in the form of a sequence of program instructions and tends to build a data structure, a "parse tree," or an abstract syntax tree.
 
--> It is a component that automatically segregates the information into various fields and parameters like contact information, educational qualification, work experience, skills, achievements, professional certifications to quickly help you identify the most relevant resumes based on your criteria.
+## Getting Started
+To use the Resume Parser, you will need to download the code from our GitHub repository and install the required dependencies. We have included a requirements.txt file that lists all the necessary libraries.
 
--> A parser takes input in the form of a sequence of program instructions and tends to build a data structure, a "parse tree," or an abstract syntax tree.
+Once you have installed the dependencies, you can run the program by executing the "resume_parser.py" file. This will launch the program, and you can begin parsing resumes.
 
-How to Select A Resume Parser?
- 
-resume parsing features
- 
-Resume parser features to check while selecting a CV/resume parser:
-It should parse resumes of all formats including PDF, doc, docx, HTML, RTF
-It should be easy to integrate with your existing software
-It should contain a detailed library of taxonomies to identify candidate skills
-It should parse multilingual resumes/CVs that automatically identifies region and language to parse information. 
-It should help in unbiased recruitment. 
-It should extract the complete resume information in maximum data fields.
-Creates an executive or management summary so that recruiters can evaluate a candidate by reading this summary. 
-Uses deep learning algorithm for improved extraction and smarter identification of resume data for better search results.
-Bulk import allows a resume/job parser to parse multiple resumes/jobs in a go.
-Email inbox integration allows users to parse resumes/jobs from single or multiple email inboxes.
-Option to integrate RScript plugin directly to your web page within 2 min.
-Get the parsed data in a document template designed to bring uniformity to the presentation.
-Our team didn't have to spend time skimming through the resume. The required information was retrieved at a single click. For example, our hiring team searched for a 'Marketing Manager' with an MBA and two years of experience. The resume parsing made it possible to simply click on the qualification and experience tab of the parser rather than going through the entire CV.
+## How to Use
+To use the Resume Parser, you will need to provide it with one or more resumes in PDF format. The program will extract key information from the resume and store it in a CSV file.
 
-Why Resume Parser?
--> Saves Time
+## To get started, follow these steps:
 
--> It parses resumes, extracts data, and saves into your ATS quickly in segregated fields.
+Open the command prompt or terminal and navigate to the project directory.
+Run the "resume_parser.py" file by executing the following command: python resume_parser.py.
+Follow the instructions displayed on the screen to input the path to the resume file(s) you want to parse.
+The program will extract the information from the resumes and store it in a CSV file named "resume_data.csv".
+Limitations
+The Resume Parser is designed to work with resumes in PDF format only. It may not be able to extract information from resumes in other formats.
 
--> It allows you to organize your candidate’s resumes without wasting any time.
+Also, the program may not be able to accurately extract information from resumes that have unusual layouts or formatting.
 
--> Less time is needed to process and select the most relevant talent who is the right fit for your organization.
+## Contributions
+We welcome contributions to the Resume Parser project. If you find any bugs or have suggestions for improvement, please feel free to create an issue on our GitHub repository.
 
--> Save employees’ time in internal referrals.     
+## Acknowledgements
+We would like to thank OpenAI for providing the training data used to develop the language model used in this project. We would also like to thank our mentors for their guidance and support throughout the development process.
 
--> Improves candidate experience
+## Requirements
+Python 3.6 or higher
+Pip package manager
+Required python packages:
+PyPDF2
+python-docx
+textract
+pandas
+spacy
+Usage
 
--> It offers auto-filling of forms in less than 10 secs so that candidates can apply to a job post in a single click without manually filling out details.
+Please make sure to update tests as appropriate.
 
--> It also helps to build your employer brand among candidates.
-
--> Easily import millions of resumes overnight.
-
--> Fast and accurate JD/resume parsing results.
-
--> It strengthens your candidate database with qualitative data. 
-
--> Quickly integrate the ‘apply now’ button on your career page.
-
--> Get resume data from emails in less than two seconds.
-
--> Enhance search results of Solr/Elasticsearch, skills, job profiles with Taxonomies.
-
--> Eliminate unconscious bias by switching on/off fields and promoting diversity.
-
--> Mask resumes before sending them to the recruiters.
-
--> Improve your ROI from increased conversion rate.
-
--> Better generalization to data and simplified approach to the data acquisition process.
-
-Reference:
-https://www.rchilli.com/blog/resume-parsing-101/
-
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
